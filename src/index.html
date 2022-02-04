@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type ="text/javascript" src="script.js" ></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            JavaScript Task
+        </div>
+        <div class="main" id="main">
+            <div class="cal">
+                <label for="Length" class="rLength">
+                    Length of a Rectangle
+                    <input type="number" class="length" id="length" value="0" placeholder="0">mtr
+                </label>
+                <br>
+                <label for="Width" class="rWidth">
+                    Width of a Rectangle
+                    <input type="number" class="width" id="width" value="0" placeholder="0">mtr
+                </label>
+                <br>
+                <button class="cal" onclick=" Calculate()">Calculate Area and Perimeter</button>
+                <div class="area">
+                    <p id="area"> Area of Rectangle is 0 sq. mtr.</p>
+                </div>
+                <div class="peri">
+                    <div id="peri">Perimeter of Rectangle is 0 mtr</div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="time">
+                <label for="hours" class="hours">
+                    <input type="number" value="1" id="ihours">
+                </label>
+                <div class="min-sec">
+                    <input type="radio" name="time" id="minute" value="minute">
+                    <label for="minute" class="minute">hours to minutes</label>
+                    <br>
+                    <input type="radio" name="time" id="second" value="second">
+                    <label for="second" class="second">Hours to second</label>
+                </div>
+                <div class="result">
+                    <p id="res"></p>
+                </div>
+                <div class="time-button">
+                    <button class="convert" onclick="Convert()">Convert</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,31 @@
+.header{
+ font-size: 20px;
+}
+
+#main{
+    text-align: center;
+    font-size: large;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]{
+    
+    margin: 10px;
+    width: 15%;
+    height: 9%;
+}
+.cal{
+    padding: 10px;
+    margin:20px;
+}
+button{
+    text-align: center;
+    padding: 10px 60px 10px 60px;
+}
+.time{
+    margin-top: 30px;
+}
